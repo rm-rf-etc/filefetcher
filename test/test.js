@@ -15,12 +15,12 @@ describe('filefetcher',function(){
         ])
 
         var expected_output = [
-            '/Users/robchristian/www/npm published/filefetcher/test/1/1.js',
-            '/Users/robchristian/www/npm published/filefetcher/test/2/a.js',
-            '/Users/robchristian/www/npm published/filefetcher/test/2/b.js',
-            '/Users/robchristian/www/npm published/filefetcher/test/2/c.js',
-            '/Users/robchristian/www/npm published/filefetcher/test/3/z.js',
-            '/Users/robchristian/www/npm published/filefetcher/test/3/extra/extra.js'
+            __dirname+'/1/1.js',
+            __dirname+'/2/a.js',
+            __dirname+'/2/b.js',
+            __dirname+'/2/c.js',
+            __dirname+'/3/z.js',
+            __dirname+'/3/extra/extra.js'
         ]
 
         expect( results ).to.eql( expected_output )
