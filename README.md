@@ -2,7 +2,7 @@
 Filefetcher.js
 ==============
 
-A node.js utility for automatically loading project files.
+Recursive / non-recursive file finder (any-type) and send to your callback.
 
 ## Description
 
@@ -16,12 +16,13 @@ This allows automated loading of project files according to your own rules.
 var filefetcher = require('filefetcher')
 
 var results = []
-function store (file) { results.push(file) }
+function customModuleInclude (file) { results.push(file) /* or whatever you want */ }
 
 filefetcher([
-    { path:__dirname+'/1', type:'js', recursive:false, cb:store },
-    { path:__dirname+'/2', type:'js', recursive:false, cb:store },
-    { path:__dirname+'/3', type:'js', recursive:true,  cb:store }
+    { path:'/relative-path1', type:'js',    recursive:false,  cb:require             },
+    { path:'/relative-path2', type:'js',    recursive:false,  cb:require             },
+    { path:'/relative-path3', type:'js',    recursive:true,   cb:customModuleInclude },
+    { path:'/views',          type:'html',  recursive:true,   cb:YourViewsModule.add }
 ])
 ```
 
