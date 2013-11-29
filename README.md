@@ -1,4 +1,3 @@
-
 Filefetcher.js
 ==============
 
@@ -9,6 +8,8 @@ Recursive / non-recursive file finder (any-type) and send to your callback.
 Finds files having a specified extension, and passes the full path to the file as the
 argument to the callback that you provide. Also runs recursively if recursive is true.
 This allows automated loading of project files according to your own rules.
+
+Works really well with [easyioc](https://github.com/rm-rf-etc/easyioc), allowing you to quickly specify exactly how to load your entire node.js project, without any redundant manual require() blocks.
 
 ## Usage
 
