@@ -3,6 +3,8 @@ Filefetcher.js
 
 Recursive / non-recursive file finder (any-type) and send to your callback.
 
+`npm install filefetcher`
+
 ## Description
 
 Finds files having a specified extension, and passes the full path to the file as the

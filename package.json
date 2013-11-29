@@ -1,6 +1,6 @@
 {
   "name": "filefetcher",
-  "version": "0.0.01",
+  "version": "0.0.02",
   "description": "A node.js utility for easily loading project files.",
   "main": "filefetcher.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/rm-rf-etc/filefetcher.js"
+    "url": "github.com/rm-rf-etc/filefetcher"
   },
   "keywords": [
     "recursive",
