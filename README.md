@@ -22,10 +22,10 @@ var results = []
 function customModuleInclude (file) { results.push(file) /* or whatever you want */ }
 
 filefetcher([
-    { path:'/relative-path1', type:'js',    recursive:false,  cb:require             },
-    { path:'/relative-path2', type:'js',    recursive:false,  cb:require             },
-    { path:'/relative-path3', type:'js',    recursive:true,   cb:customModuleInclude },
-    { path:'/views',          type:'html',  recursive:true,   cb:YourViewsModule.add }
+    { path:'./relative-path1', type:'js',    recursive:false,  cb:require             },
+    { path:'./relative-path2', type:'js',    recursive:false,  cb:require             },
+    { path:'./relative-path3', type:'js',    recursive:true,   cb:customModuleInclude },
+    { path:'./views',          type:'html',  recursive:true,   cb:YourViewsModule.add }
 ])
 ```
 
