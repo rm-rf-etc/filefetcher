@@ -11,7 +11,7 @@ Finds files having a specified extension, and passes the full path to the file a
 argument to the callback that you provide. Also runs recursively if recursive is true.
 This allows automated loading of project files according to your own rules.
 
-Works really well with [easyioc](https://github.com/rm-rf-etc/easyioc), allowing you to quickly specify exactly how to load your entire node.js project, without any redundant manual require() blocks.
+Works really well with easyioc ([git](http://github.com/rm-rf-etc/easyioc)) ([npm](http://npmjs.org/package/easyioc)), allowing you to quickly specify exactly how to load your entire node.js project, without any redundant manual require() blocks.
 
 ## Usage
 
