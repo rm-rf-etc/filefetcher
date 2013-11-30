@@ -1,7 +1,7 @@
 {
   "name": "filefetcher",
-  "version": "0.0.02",
-  "description": "A node.js utility for easily loading project files.",
+  "version": "0.0.03",
+  "description": "Node.js utility; stupidly-simple recursive / non-recursive project file fetcher.",
   "main": "filefetcher.js",
   "directories": {
     "test": "test"
