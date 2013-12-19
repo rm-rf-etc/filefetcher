@@ -1,9 +1,9 @@
 Filefetcher.js
 ==============
 
-Recursive / non-recursive file finder (any-type) and send to your callback.
+Recursive / non-recursive file collector (any file type). Sends full path of each file to your callback.
 
-`npm install filefetcher`
+[![NPM](https://nodei.co/npm/filefetcher.png?downloads=true)](https://nodei.co/npm/filefetcher/)
 
 ## Description
 
