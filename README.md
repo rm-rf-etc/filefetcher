@@ -2,6 +2,8 @@ Filefetcher.js
 ==============
 
 Recursive / non-recursive file collector (any file type). Sends full path of each file to your callback.
+Belongs to the Encore framework project:
+[encore.jit.su](http://encore.jit.su) | [github.com/rm-rf-etc/encore](http://github.com/rm-rf-etc/encore)  
 
 [![NPM](https://nodei.co/npm/filefetcher.png?downloads=true)](https://nodei.co/npm/filefetcher/)
 
